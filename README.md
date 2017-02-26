@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/mazanax/paginator/branch/master/graph/badge.svg)](https://codecov.io/gh/mazanax/paginator)
+
 # Paginator
 Simple pagination library for your site
 
