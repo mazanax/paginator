@@ -1,0 +1,18 @@
+<phpunit bootstrap="vendor/autoload.php">
+    <testsuites>
+        <testsuite name="Paginator">
+            <directory>./src/</directory>
+        </testsuite>
+    </testsuites>
+    <logging>
+        <log type="coverage-clover" target="clover.xml"/>
+    </logging>
+    <filter>
+        <whitelist>
+            <file>./src/Paginator.php</file>
+            <exclude>
+                <file>./src/PaginatorTest.php</file>
+            </exclude>
+        </whitelist>
+    </filter>
+</phpunit>

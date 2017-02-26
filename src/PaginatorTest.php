@@ -7,7 +7,7 @@ use PHPUnit\Framework\TestCase;
 class PaginatorTest extends TestCase
 {
     /**
-     * @covers Paginator::getPages()
+     * @covers \MZ\Paginator::getPages()
      */
     public function testGetPagesWithoutSeparator()
     {
@@ -44,7 +44,7 @@ class PaginatorTest extends TestCase
     }
 
     /**
-     * @covers Paginator::getPages()
+     * @covers \MZ\Paginator::getPages()
      */
     public function testGetPagesWithSeparator()
     {
