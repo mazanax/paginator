@@ -3,6 +3,9 @@
 # Paginator
 Simple pagination library for your site
 
+### Installation
+`composer require mazanax/paginator`
+
 ### Usage
 ```php
 <?php
