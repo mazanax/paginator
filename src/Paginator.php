@@ -51,7 +51,7 @@ class Paginator
 
         if ($currentPage >= $firstPage + $limit && $currentPage <= $lastPage - $limit) {
             $commonSection = range($currentPage - $partSize, $currentPage + $partSize);
-        } elseif ($currentPage <= $firstPage + $limit) {
+        } elseif ($currentPage < $firstPage + $limit) {
             $commonSection = range($firstPage, min($firstPage + $limit, $lastPage));
         } else {
             $commonSection = range(max($firstPage, $lastPage - $limit), $lastPage);

@@ -87,5 +87,9 @@ class PaginatorTest extends TestCase
         static::assertEquals([1, $separator, 17, 18, 19, 20], $paginator3->getPages(18, 100));
         static::assertEquals([1, $separator, 15, 16, 17, 18, 19, 20], $paginator3->getPages(17, 100));
         static::assertEquals([1, $separator, 14, 15, 16, 17, 18, $separator, 20], $paginator3->getPages(16, 100));
+        
+        $paginator4 = new Paginator(['on_page' => 1, 'section_size' => 5, 'separator' => $separator]);
+        
+        static::assertEquals([1, $separator, 4, 5, 6, 7, 8], $paginator4->getPages(5, 8));
     }
 }
