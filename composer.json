@@ -1,0 +1,23 @@
+{
+  "name": "mazanax/paginator",
+  "description": "Simple pagination library for you site",
+  "minimum-stability": "stable",
+  "license": "GNU 3.0",
+  "authors": [
+    {
+      "name": "mazanax",
+      "email": "me@mazanax.ru"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "MZ\\": "src/"
+    }
+  }
+}
