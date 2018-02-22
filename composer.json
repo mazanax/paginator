@@ -2,7 +2,7 @@
   "name": "mazanax/paginator",
   "description": "Simple pagination library for you site",
   "minimum-stability": "stable",
-  "license": "GNU 3.0",
+  "license": "GPL-3.0-or-later",
   "authors": [
     {
       "name": "mazanax",
